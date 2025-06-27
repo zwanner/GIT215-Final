@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Owen van der Zwan">
+    <meta name="description" content="Contact Alpine Haven Resort for reservations, questions, or to plan your perfect Swiss Alps getaway. Our team is here to help you create your dream mountain vacation.">
+    <title>Alpine Haven Resort | Contact</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="hero-header">
+        <div class="container hero-header-content">
+            <h1><a href="index.html">Alpine Haven Resort</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Accommodations</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="contact-content contact-grid">
+                <div class="contact-image-col">
+                    <h2>Contact Us</h2>
+                    <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!</p>
+                    <p>Required fields marked with a *</p>
+                    <img src="images/swiss-peak.jpg" alt="Majestic Swiss mountain peak with snow-capped summit" width="400" height="300">
+                </div>
+                <div class="contact-form-col">
+                    <form method="post" action="https://wp.zybooks.com/form-viewer.php">
+                        <fieldset>
+                            <legend>Contact Information</legend>
+                            <label for="fullname">Full Name *</label>
+                            <input type="text" id="fullname" name="fullname" required>
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" required>
+                            <label>Preferred Contact Method *</label>
+                            <div class="radio-row">
+                                <input type="radio" id="contact-email" name="contact-method" value="email" required>
+                                <label for="contact-email">Email</label>
+                                <input type="radio" id="contact-phone" name="contact-method" value="phone" required>
+                                <label for="contact-phone">Phone</label>
+                            </div>
+                            <label for="comments">Comments *</label>
+                            <textarea id="comments" name="comments" rows="5" required></textarea>
+                            <button type="submit">Submit</button>
+                        </fieldset>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Copyright ©2023 - Alpine Haven Resort</p>
+            <p>This site is for educational purposes only</p>
+            <p><a href="https://www.myswitzerland.com/en-us/" target="_blank">Visit Switzerland Tourism</a></p>
+        </div>
+    </footer>
+</body>
+</html> 
